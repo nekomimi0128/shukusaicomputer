@@ -1,0 +1,9 @@
+{
+  "name": "Ubuntu Desktop (ja)",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [6080],
+  "postCreateCommand": "bash /setup-vnc.sh",
+  "postStartCommand": "bash /start-novnc.sh &"
+}
