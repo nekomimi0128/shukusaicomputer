@@ -1,5 +1,5 @@
 {
-  "name": "Ubuntu Desktop (ja)",
+  "name": "Ubuntu Desktop (ja, root)",
   "build": {
     "dockerfile": "Dockerfile"
   },
